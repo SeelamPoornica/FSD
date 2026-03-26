@@ -11,8 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.2",
-    "ejs": "^4.0.1",
+    "bcryptjs": "^2.4.3",
     "express": "^5.2.1",
+    "express-session": "^1.18.1",
     "firebase-admin": "^13.6.1"
   }
 }
