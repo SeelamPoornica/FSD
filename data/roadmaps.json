@@ -1,0 +1,12 @@
+{
+  "spring_boot": { "title": "Spring Boot Expert", "color": "#6db33f", "desc": "Enterprise Java & Microservices", "steps": 100 },
+  "mern_stack": { "title": "Fullstack MERN", "color": "#61dbfb", "desc": "MongoDB, Express, React, Node", "steps": 100 },
+  "python_ai": { "title": "AI & Data Science", "color": "#3776ab", "desc": "Python, NumPy, Scikit-Learn", "steps": 100 },
+  "cyber_sec": { "title": "Cyber Security", "color": "#e74c3c", "desc": "Ethical Hacking & Network Security", "steps": 100 },
+  "cloud_devops": { "title": "Cloud & DevOps", "color": "#f39c12", "desc": "AWS, Docker, Kubernetes", "steps": 100 },
+  "android_dev": { "title": "Android (Kotlin)", "color": "#3ddc84", "desc": "Modern Android with Jetpack", "steps": 100 },
+  "data_eng": { "title": "Data Engineering", "color": "#1abc9c", "desc": "Big Data, Spark, and ETL", "steps": 100 },
+  "blockchain": { "title": "Web3 & Blockchain", "color": "#34495e", "desc": "Solidity & Smart Contracts", "steps": 100 },
+  "ui_ux": { "title": "UI/UX Design", "color": "#9b59b6", "desc": "Figma, Adobe XD, and Research", "steps": 100 },
+  "qa_auto": { "title": "QA Automation", "color": "#3498db", "desc": "Selenium, Appium, and Testing", "steps": 100 }
+}
