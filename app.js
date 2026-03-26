@@ -6,8 +6,13 @@ const session = require('express-session');
 const path = require('path');
 
 const app = express();
-const serviceAccount = require('./serviceAccountKey.json');
 
+let serviceAccount;
+if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+    serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+} else {
+    serviceAccount = require('./serviceAccountKey.json');
+}
 
 initializeApp({ credential: cert(serviceAccount) });
 const db = getFirestore();
@@ -181,3 +186,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
+
+module.exports = app;
